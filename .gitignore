@@ -1,0 +1,35 @@
+Industrial systems like chemical plants, oil refineries, and smart manufacturing units run continuously, producing high-frequency sensor data streams that measure temperature, pressure, flow rates, vibration, voltage, and many other signals. Any deviation from normal operation — whether due to equipment malfunction, human error, cyber-attack, or unexpected external factors — can result in costly downtime, product quality issues, or safety hazards.
+
+Traditional rule-based and threshold monitoring systems often fail because:
+
+They cannot adapt to dynamic operating conditions.
+
+They do not capture multivariate relationships (how one sensor influences another).
+
+They produce too many false alarms, causing “alarm fatigue” among operators.
+
+To overcome these challenges, our proposed solution is an AI-powered anomaly detection system that can:
+
+Automatically learn normal operating behavior from historical plant data.
+
+Detect anomalies in real time when data deviates from expected patterns.
+
+Provide interpretable results by identifying which sensors contributed most to the anomaly.
+
+Generate actionable insights for plant operators and engineers to act before failure occurs.
+
+The pipeline consists of:
+
+Preprocessing: Missing value handling, resampling, normalization, outlier suppression.
+
+Feature Engineering: Rolling windows, lag features, correlation analysis, statistical summaries.
+
+Model Training: Multiple anomaly detection models (classical ML + deep learning).
+
+Anomaly Scoring: Generating a normalized anomaly score (0–100).
+
+Root Cause Analysis: Identifying top contributing features for each anomaly.
+
+Visualization & Reporting: Creating time-series anomaly plots and structured reports for operators.
+
+This makes the solution end-to-end automated, requiring minimal human intervention, while still offering interpretability for trust and adoption.
